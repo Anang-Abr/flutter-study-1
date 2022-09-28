@@ -33,10 +33,9 @@ class _NimProfileScreenState extends State<NimProfileScreen> {
                         ),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
-                          color: Colors.black,
-                          // image: DecorationImage(
-                          //   // image: AssetImage("assets/foto-profil.jpeg"),
-                          // ),
+                          image: DecorationImage(
+                            image: AssetImage("assets/foto-profil.jpeg"),
+                          ),
                         ),
                       )
                     ],
